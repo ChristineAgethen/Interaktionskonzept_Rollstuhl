@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+import android.
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -16,9 +17,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button goButton = findViewById(R.id.goBtn);
         Button stopButton = findViewById(R.id.stopBtn);
+        Button plusButton = findViewById(R.id.plusBtn);
+        Button minusButton = findViewById(R.id.minusBtn);
 
         goButton.setOnClickListener(this);
         stopButton.setOnClickListener(this);
+        plusButton.setOnClickListener(this);
+        minusButton.setOnClickListener(this);
 
     }
 
