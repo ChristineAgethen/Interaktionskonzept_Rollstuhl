@@ -3,6 +3,20 @@ package com.example.chris.rolliapp;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.SeekBar;
+
+import java.util.Set;
+import java.util.ArrayList;
+import android.widget.Toast;
+import android.widget.ArrayAdapter;
+import android.widget.AdapterView
+import android.widget.AdapterView.OnClickListener
+import android.widget.TextView;
+import android.content.Intent;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
 
 /**
  * Skeleton of an Android Things activity.
