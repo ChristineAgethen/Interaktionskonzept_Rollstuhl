@@ -3,7 +3,6 @@ package com.example.chris.rolli;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -48,9 +47,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     // SPP UUID service
+    // inital 0x1101
     private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
     // MAC-address of Bluetooth module (you must edit this line)
-    private static String address = "00:15:FF:F2:19:5F";
+    private static String address = "00:21:13:00:9C:3C";
 
     /** Called when the activity is first created. */
     @Override
